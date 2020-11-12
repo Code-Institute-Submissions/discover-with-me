@@ -1,10 +1,14 @@
 # Discover with me
-## Swidnica and Lower Silesia
+## Swidnica and places near by
 [View website in GitHub Pages]()
 
-This website is created to promote my home town in Poland. My dream is to create a place, where people could find essential information about attractions in the town and near by. Swidnica and all of Lower Silesia region has a lot to offer. I'll gladly share my favourite places with you. 
+## Introduction 
 
-For the purpose, of my Full Stack Developer Course in Code Institute I decided to only create the pages listed below:
+ 
+My friends often ask about my hometown and close by places that are worth seeing. These questions inspired me to make this project. 
+
+
+
 
 * Home, 
 * News,
