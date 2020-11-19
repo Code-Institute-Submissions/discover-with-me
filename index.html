@@ -7,7 +7,7 @@
     <!-- lines below are copied from Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <!--favicons-->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -18,30 +18,65 @@
 
 <body>
     <header>
-        <div>
-            <h1>Discover with me</h1>
-        </div>
+        
 
-        <div>
-            <ul>
-                <li>
-                    <a class="#" href="index.html">Home</a>
-                </li>
-                <li>
-                    <a class="#" href="#">About</a>
-                </li>
-                <li>
-                    <a class="#" href="#">Gallery</a>
-                </li>
-                <li>
-                    <a class="#" href="#">Blog</a>
-                </li>
-                <li>
-                    <a class="#" href="#">Contact</a>
-                </li>
-            </ul>
+        <!-- navbar with image and text -->
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand active" href="index.html">
+                <img src="/assets/media/images/full_size/logo.jpg" width="40" height="40" class="d-inline-block align-top" alt="logo images with abbrevation DWM" loading="lazy">
+            Discover with me
+            </a>
+        </nav>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-        </div>
+        <!-- I was looking some tips and advice on this page, where code is available on https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar_hor --->
+
+        <!-- top navigation menu -->
+                <div class="topnav">
+                    <a href="index.html" class="active">Home</a>
+                        <div id="myLinks">
+                            <a href="#about" target="_blank">About</a>
+                            <a href="gallery.html" target="_blank">Gallery</a>
+                            <a href="#blog">Blog</a>
+                            <a href="#contact">Contact</a>
+                        </div>    
+                </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                
+                <!--<a class="navbar-brand" href="#">Navbar</a>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+
+            <div class="row">
+                <div class=""collapse navbar-collapse" id="navbarNav> 
+                        <ul id="nav" class="list-inline menu-color">
+                            <li class="col-6 col-sm-3  list-inline-item">
+                                <a class="col-6 col-sm-3" 
+                                href="index.html"><span>Home</span></a>
+                            </li>
+                            <li>
+                            <a class="col-6 col-sm-3 list-inline-item" 
+                            href="#"><span>About</span></a>
+                        </li>
+                        <li>
+                            <a class="col-6 col-sm-3 list-inline-item" 
+                            href="#"><span>Gallery</span></a>
+                        </li>
+                        <li>
+                            <a class="col-6 col-sm-3 list-inline-item" 
+                            href="#"><span>Blog</span></a>
+                        </li>
+                        <li>
+                            <a class="col-6 col-sm-3 list-inline-item" 
+                            href="#"><span>Contact</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>-->   
+    </header>
 
     <section>
         <div>
@@ -51,24 +86,33 @@
         <div>
             <p>The one who lives sees a lot. The one who travels sees more.</p>
         </div>
+        
 
-        <button>See more in Gallery</button>
-        <button>Write to me</button>
+        <a href="/gallery.html"><button>See more in Gallery</button></a>
+
+        <a href="/contact.html"><button>Write to me</button></a>
 
     </section>
 
-    <footer>
-        <div>
-            <a class="facebbok icon" href="https://www.facebook.com/discoverwithmagdalena" target="blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <h6 class="general-subheading">Follow me</h6>
+                <p class="inline-block">
+                    <div>
+                        <a class="facebbok icon" href="https://www.facebook.com/discoverwithmagdalena" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a> 
 
-            <a class="instagram icon" href="https://www.instagram.com/discoverwithmagdalena" target="blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                        <a class="instagram icon" href="https://www.instagram.com/discoverwithmagdalena" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
 
-            <a class="pinterest icon" href="https://www.pinterest.com/discoverwithmagdalena" target="blank" rel="noopener"><i class="fab fa-pinterest"></i></a>
-
+                        <a class="pinterest icon" href="https://www.pinterest.com/discoverwithmagdalena" target="_blank" rel="noopener"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </p>
+            </div>
+            
         </div>
-
+        
         <div>
-            <p> @ 2020 MRS All rights reserved</p>
+            <p class="inline-block">@ 2020 MRS All rights reserved</p>
         </div>
     </footer>
 </body>

@@ -1,18 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700');
 
-body{
-    height: 100%;
+/*--------------------topnav with links*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
 }
 
-h1{
-    font-family: Lato, sans-serif;
-    
-    position: center;
-    padding: 15px;
+.topnav #myLinks {
+  display: none;
 }
 
-h2{
-color:darkgreen;
+.topnav a {
+  float: left;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
+.topnav a.icon {
+  float: right;
+}
 
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 300px;
+  color: white;
+  border-radius: 10px;
+}
+
+/*-------------- home page hero image----------*/
+.heroImage {
+	background:url("/assets/media/images/thumbnails/zalew_witoszówka.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+/*------------------ Footer*/
+.general-subheading{
+    font-family: Open+Sans, sans-serif;
+    font-weight: 400;
+    color:darkblue;
+}
+
+footer{
+    background-color: #f8f9fa;
+    min-height: 120px;
+
+}
+.inline-block{
+    display:inline-block;
+}

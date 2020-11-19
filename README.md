@@ -107,19 +107,24 @@ will be used to increse user experience by adding, expected by users, icons.
 
 ### Code
 
-### Content
-This README.dm file was inspired by [Ann Graves File](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) and [SPH73](https://github.com/SPH73/Santorini-nail-bar/blob/master/README.md)
 
+### Content
+
+I was looking for some inspiration about README.dm file in files [Ann Graves File](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) and [SPH73](https://github.com/SPH73/Santorini-nail-bar/blob/master/README.md).
 
 
 ### Media
 
 ### Acknowledgements
 
-Thank you
-Brian Macharia which is my mentor, and provide me by this project:)
-Jim Lynx for his presentation and tips about MS1 Preparation 
-Anna Greaves for webinar aabout how to write good README.md
+Thank you:
+* Brian Macharia which is my mentor, and provide me by this project:)
+* Jim Lynx for his tips about MS1 Preparation and GitHub  presentations
+* Anna Greaves for webinar about How to write good README.md
+* othneildrew for README template
+* Dani Krossing for favicon tutorial on YT
+* HelloRoman for fun and explanation in Polish language 
+* Zebza for short and very usefull info about UI, UX and design in Polish         language as well
 
 
 
