@@ -105,6 +105,15 @@ will be used to increse user experience by adding, expected by users, icons.
 
 ## Credits
 
+Pictures connected to church of peace are from official church webpage, and are made by [Bożena Pytel] 
+(https://kosciolpokoju.pl/de/pliki-do-pobrania/)
+
+Świdnica panoramic view is taken from Wikimedia Commons / CC-BY-SA-3.0 and is  [Piotr Marynowski] (https://commons.wikimedia.org/wiki/File:Świdnica_-_Panorama_miasta.jpg) 
+
+Castle Książ photo is from [Fshoq] (https://fshoq.com ) and [RadioZet](https://gfx.radiozet.pl/var/radiozet/storage/images/podroze/zamek-ksiaz-zwiedzanie-bilety-i-historia-zamku-ksiaz-w-walbrzychu/9583995-1-pol-PL/Zamek-Ksiaz-zwiedzanie-architektonicznej-perly-Walbrzycha_article.jpg)
+
+All other photos are from my own home archive.
+
 ### Code
 
 
@@ -118,13 +127,13 @@ I was looking for some inspiration about README.dm file in files [Ann Graves Fil
 ### Acknowledgements
 
 Thank you:
-* Brian Macharia which is my mentor, and provide me by this project:)
-* Jim Lynx for his tips about MS1 Preparation and GitHub  presentations
-* Anna Greaves for webinar about How to write good README.md
-* othneildrew for README template
-* Dani Krossing for favicon tutorial on YT
-* HelloRoman for fun and explanation in Polish language 
-* Zebza for short and very usefull info about UI, UX and design in Polish         language as well
+* [Brian Macharia] which is my mentor, and provide me by this project:)
+* [Jim Lynx] for his tips about MS1 Preparation and GitHub  presentations
+* [Anna Greaves] for webinar about How to write good README.md
+* [othneildrew] for README template
+* [Dani Krossing] for favicon tutorial on YT
+* [HelloRoman] for fun and explanation in Polish language 
+* [Zebza] for short and very usefull info about UI, UX and design in Polish         language as well
 
 
 
