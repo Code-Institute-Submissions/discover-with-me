@@ -7,6 +7,7 @@
     <!-- lines below are copied from Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <!--favicons-->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -25,44 +26,58 @@
             
             <h1>Discover with me</h1>
             
-            <p>The probably the greatest places in my hometown.</p> 
+            <p>Say yes to new adventures</p> 
         </div>
 
 
-        <!----nav with links which becomes vertical on smaal screens orginal code https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp-->
+    <!----nav with links which becomes vertical on smaal screens orginal code https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp-->
         
-        <nav class=" navbar-expand-sm bg-color">
+   
 
-        <!-- Links -->
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html"><span>Home</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html"><span>About</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gallery.html"><span>Gallery</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="blog.html"><span>Blog</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html"><span>Contact</span></a>
-                </li>
-            </ul>
-        </nav>
+       <nav class=" navbar-expand-sm bg-color">   
+            
+           <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <a class="navbar-brand" href="../images/fslogo.jpg"></a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                    
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><span style="color:#00000">Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"><span style="color:#003152">About</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html"><span style="color:#003152">Gallery</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html"><span style="color:#003152">Blog</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html"><span style="color:#003152">Contact</span></a>
+                        </li>
+                    </ul>
+                </div>  
            
+        
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+      
     </header>
 
     
     <section>
         
         <div class="hero-image">
-            
-            <h2>Świdnica and places near by</h2>
-        
-            <p>The one who lives sees a lot. The one who travels sees more.</p>
+            <h2 id="hero-image-text">Świdnica and places near by</h2>
         </div>
         
         <div>
@@ -75,29 +90,24 @@
 
     
     
-    <footer class="container-fluid">
-        <div class="row">
-            <div class="col-sm-4">
-                <h6 class="general-sub">Follow me</h6>
-                <ul class="list-inline social-links">
-                    <li>
-                        <a class="facebbok icon" href="https://www.facebook.com/discoverwithmagdalena" target="_blank" rel="noopener"><i class="fab fa-facebook" aria-hidden="true"></i><span sr-only>Facebook</span></a> 
-                    </li>
-                    <li>
-                        <a class="instagram icon" href="https://www.instagram.com/discoverwithmagdalena" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a class="pinterest icon" href="https://www.pinterest.com/discoverwithmagdalena" target="_blank" rel="noopener"><i class="fab fa-pinterest"></i></a>
-                    </li>
-                    </div>
-                </ul>
-            </div>
-            
-        </div>
-        
+    <footer 
+
+        <div> 
+            <ul class="inline-block social-links">
+                <li>
+                    <a class="facebbok icon" href="https://www.facebook.com/discoverwithmagdalena" target="_blank" rel="noopener"><i class="fa fa-facebook" aria-hidden="true"></i><span sr-only></span></a> 
+                </li>
+                <li>
+                    <a class="instagram icon" href="https://www.instagram.com/discoverwithmagdalena" target="_blank" rel="noopener"><i class="fa fa-instagram"><span sr-only></span></i></a>
+                </li>
+                <li>
+                    <a class="pinterest icon" href="https://www.pinterest.com/discoverwithmagdalena" target="_blank" rel="noopener"><i class="fa fa-pinterest"><span sr-only></span></i></a>
+                </li>
+            </ul>
         <div>
             <p class="inline-block">@ 2020 MRS All rights reserved</p>
         </div>
+
     </footer>
 </body>
 </html>

@@ -1,126 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700 |Dancing+Script:400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700 |Dancing+Script:400,500,600,700');
 
 
 .text-center{
-    background-color:#B4FDA0;
+    background-color:#0e4d92;
     padding: 5px;
-    opacity:0.5;
+    opacity:0.8;
 }
 
-.bg-color
+.bg-color, icons
 {
-    background-color: #88FF99;
-    opacity:0.6;
+    background-color: #89cff0;
+    opacity: 0.5;
 }
 
-.navbar-nav{
-    color: #000000;
+
+.li.nav-item{
+    color:#111111;
 }
 /*---font color in navbar #212520----*/
+h1{
+    font-family: 'Playfair Display', serif;
+    color:#b0dfe5;
+}
 
 p {
   font-style: italic;
   font-family: 'Dancing Script', cursive;
   font-weight: 600;
   font-size:medium;
+  color:#b0dfe5;
 
 }
 /*------------hero image------------*/
 
-.hero-image{
-    background-image:url("assets/media/images/full_size/Świdnica panoramic Piotr Marynowski.jpg");
-    height: 50px;
-    background-color: #B4FDA0;
-    background-position: center;
-    background-size: cover;
+.hero-image {
+    background-image: url(../media/images/fsSwidnica.jpg);
+    height:500px;
+    background-color:#B4FDA0;
+    background-position:center;
+    background-size:cover;
     background-repeat:no-repeat;
     position:relative;
-    
 }
 
-.
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---.navbar-brand {
-    display: inline-block;
-    /* padding-top: .3125rem; */
-    /* padding-bottom: .3125rem; */
-    margin:10px, o;
-    font-size: 1.25rem;
-    line-height: 1.2em; /*10pt*  = 120%  /
-    white-space: nowrap;
+#hero-image {
+    columns: #000000;;
+    font-family: "Playfair Display", serif;
+    text-align: center;
 }
 
 
 
-
-/*--------------------topnav with links
+/*----------- responsive navigationbar
+/* Style the navigation menu 
 .topnav {
   overflow: hidden;
-  background-color: #F8F9FA;
+  background-color: #333;
   position: relative;
 }
 
+/* Hide the links inside the navigation menu (except for logo/home) 
 .topnav #myLinks {
   display: none;
 }
 
+/* Style navigation menu links 
 .topnav a {
-  float: left;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  display: block;
 }
 
+/* Style the hamburger menu 
 .topnav a.icon {
-  float: right;
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
+/* Add a grey background color on mouse-over 
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
+/* Style the active link (or home/logo) 
 .active {
   background-color: #4CAF50;
   color: white;
 }
+-----*/
 
-.mobile-container {
-  max-width: 480px;
-  margin: auto;
-  background-color: #555;
-  height: 300px;
-  color: white;
-  border-radius: 10px;
-}*/
+/*--------------Footer icons--*/
 
-/*-------------- home page hero image----------
-.heroImage {
-	background:url("/assets/media/images/thumbnails/zalew_witoszówka.jpg");
-	height: 50%;
-	background-position: center;
-	background-repeat: no-repeat;
-	position: relative;
+
+.social-icons{
+    display:inline-block;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Open+Sans, sans-serif;
+    background-color:#b0dfe5;
+    background-position:center;
+    height:auto;
+    
 }
+
 
 /*------------------ Footer
 .general-subheading{
     font-family: Open+Sans, sans-serif;
     font-weight: 400;
     color:darkblue;
+    
 }
 
 footer{
@@ -131,3 +126,14 @@ footer{
 .inline-block{
     display:inline-block;
 }-----*/
+
+
+element.style {
+}
+.bg-color, icons {
+    background-color: #89cff0;
+    opacity: 0.5;
+}
+@media (min-width: 576px)
+.navbar-expand-sm {
+}
