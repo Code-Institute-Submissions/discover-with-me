@@ -28,11 +28,11 @@ p {
 /*------------hero image------------*/
 
 .hero-image{
-    background-image:url(assets/media/images/full_size/Świdnica panoramic Piotr Marynowski.jpg);
-    height: 50px ;
+    background-image:url("assets/media/images/full_size/Świdnica panoramic Piotr Marynowski.jpg");
+    height: 50px;
     background-color: #B4FDA0;
     background-position: center;
-      background-size: cover;
+    background-size: cover;
     background-repeat:no-repeat;
     position:relative;
     
