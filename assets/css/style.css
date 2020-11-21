@@ -42,6 +42,8 @@ p {
   font-weight: 600;
   font-size:medium;
   color:#b0dfe5;
+  margin: 0px 50px 0px 50px;
+}
 
 }
 /*------------hero image------------*/
@@ -57,7 +59,7 @@ p {
 }
 
 #hero-image h2 {
-    color:chocolate;
+    color:0e4d92;
     font-family: "Playfair Display", serif;
     text-align: center;
     padding: 20px;
