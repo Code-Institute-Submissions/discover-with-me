@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700 |Dancing+Script:400,500,600,700');
 
 *{
-    margin:0 2px 0 2px;
+    margin:0;
     
 
     }
+
+.row {
+
+margin-left: 0;
+margin-right: 0;
+}
+
 /*-bacground in header-*/
 .text-center {
     background-color:#0e4d92;
