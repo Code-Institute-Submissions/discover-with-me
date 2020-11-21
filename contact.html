@@ -33,14 +33,12 @@
             <p>The probably the greatest places in my hometown.</p> 
         </div>
 
-
-        <!----nav with links which becomes vertical on smaal screens orginal code https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp ------>
+<!----nav with links which becomes vertical on smaal screens orginal code https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp ------>
         
         <nav class=" navbar navbar-expand-sm bg-color justify-content-center">
 
         <!-- Links -->
-            <!--<ul class="navbar-nav">--->
-                <ul>
+            <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html"><span>Home</span></a>
                 </li>
@@ -58,12 +56,19 @@
                 </li>
             </ul>
         </nav>
-           
-    </header>
+</header>
     
     <section>
     <h1>Do not hestiage contact with me</h1>
-       <form action="#" method="POST">
+
+    <!--this code is taken form https://blog.hubspot.com/marketing/html-form-email--->
+        <form action=”mailto:contact@domain.com” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
+        Name:<br>
+        <input type=”text” size=”19″ name=”ContactName”><br><br>
+        Message:<br> <textarea name=”ContactCommentt” rows=”6″ cols=”20″>
+        </textarea><br><br> <input type=”submit” value=”Submit”> </form>
+      
+       <!----<form action="#" method="POST">
             <label for="email">E-mail</label>
                 <input type="email" id="email" name="email" required>
                 <input type="submit" value="Submit"> </br>
@@ -72,26 +77,22 @@
                 <textarea id="message" name="email" required></textarea>
                 <input type="text" id="message" name="message">
                 <button type="button">Send</button>
-       </form> 
+       </form>---> 
+</section>
 
-        
-       
+<footer>
+        <div class="col-12 col-md-8 social-icons">
+            <a class="facebbok icon" href="https://www.facebook.com/discoverwithmagdalena" target="blank" rel="noopener"><i class="fa fa-facebook"></i></a>
 
-    </section>
+            <a class="instagram icon" href="https://www.instagram.com/discoverwithmagdalena" target="blank" rel="noopener"><i class="fa fa-instagram"></i></a>
 
-    <footer>
-        <div>
-            <a class="facebbok icon" href="https://www.facebook.com/discoverwithmagdalena" target="blank" rel="noopener"><i class="fab fa-facebook"></i></a>
-
-            <a class="instagram icon" href="https://www.instagram.com/discoverwithmagdalena" target="blank" rel="noopener"><i class="fab fa-instagram"></i></a>
-
-            <a class="pinterest icon" href="https://www.pinterest.com/discoverwithmagdalena" target="blank" rel="noopener"><i class="fab fa-pinterest"></i></a>
-
-        </div>
+            <a class="pinterest icon" href="https://www.pinterest.com/discoverwithmagdalena" target="blank" rel="noopener"><i class="fa fa-pinterest"></i></a>
+         </div>
 
         <div>
             <p> @ 2020 MRS All rights reserved</p>
         </div>
     </footer>
+    
 </body>
 </html>
