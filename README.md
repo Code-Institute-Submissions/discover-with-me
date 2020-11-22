@@ -106,15 +106,17 @@ will be used to increse user experience by adding, expected by users, icons.
 
 ## Testing
 
-In order to ensure the site works as intended, I made manual tests on phones, tablets and desktops, using Chrome,Firefox, Internet Explorer, Edge.
+In order to ensure the site works as intended, I made manual tests on phones, tablets and desktops, using Chrome, Firefox, Internet Explorer, Edge. I also ran tests using dev tools, W3V CSS and HTML validator. 
 
-Links (in buttons) are working properly and open expected sites.
+1. Links (in buttons) are working properly and open expected sites.
 
-Footer icons provide exacly to the showed places and open in new windows.
+2. Footer icons such as Facebook, Instagram and Pinterest provide exacly to the showed places and open in new windows.
 
-Navbar on each side working great, and move the users to expected sites
+3. Navbar on each site is working properly, and moves the users to expected sites.
 
-Contact form must be competed to send it (message and properlly e-mail must  inserted). 
+4. Contact form must be competed to send it (message and e-mail must inserted). 
+
+5. Features are working well on different screen sizes. In future, I will add hamburger menu, which I didn't implement now.
 
 ## Deployment
 
