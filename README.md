@@ -99,6 +99,10 @@ will be used for styling the website.
 [Fontawesom](https://fontawesome.com/)
 will be used to increse user experience by adding, expected by users, icons. 
 
+[Paint]() to resize photos
+
+[Procreate]() to create a logo
+
 ## Testing
 
 ## Deployment

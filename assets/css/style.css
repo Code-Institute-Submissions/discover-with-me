@@ -167,17 +167,21 @@ p {
 }
 /*---this code is taken from https://stackoverflow.com/questions/4012872/how-to-center-a-footer-div-on-a-webpage---*/
 
-#footer{
-    display: inline-box;
+/*#footer{
+    /*display:inline-box;*/
     padding-top:10px;
     text-align: center;
-    margin:20px,auto;
+    margin:20px auto;
     /*margin-left: auto;
     margin-right: auto;*/
 }
 
-/*ul{
-    display:flex;*/
+footer ul{
+    display:flex;
+    /*list-style:none;
+    margin-bottom:0;
+    padding:0;*/
+}
 
 .general-subheading{
     font-family:"Open Sans", sans-serif;
@@ -188,9 +192,9 @@ p {
 
 /*footer{
     background-color: #f8f9fa;
-    min-height: 100px;*/
+    min-height: 100px;
+}*/
 
-}
 .inline-block{
     display:inline-block;
 }
@@ -227,9 +231,9 @@ transition: all 0.4s ease 0s;
 .example_a:hover {
 background: #0e4d92;
 letter-spacing: 1px;
--webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
--moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+-webkit-box-shadow: 0px 5px 40px 0px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px 0px rgba(0,0,0,0.57);
+box-shadow: 5px 40px 0px rgba(0,0,0,0.57);
 transition: all 0.4s ease 0s;
 }
 
@@ -241,7 +245,9 @@ transition: all 0.4s ease 0s;
 column-count: 3;
 -webkit-column-width: 33%;
 -moz-column-width: 33%;
-column-width: 33%; }
+column-width: auto; 
+}
+
 .gallery .pics {
 -webkit-transition: all 350ms ease;
 transition: all 350ms ease; }
@@ -257,7 +263,7 @@ transform: scale(1); }
 column-count: 1;
 -webkit-column-width: 100%;
 -moz-column-width: 100%;
-column-width: 100%;
+column-width: auto;
 }
 }
 
