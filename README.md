@@ -119,38 +119,29 @@ Contact form must be competed to send it (message and properlly e-mail must  ins
 ## Deployment
 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
-1 Log into GitHub.
-2 From the list of repositories on the screen, select madatoo/discover-with-me
-3 From the menu items near the top of the page, select Settings.
-4 Scroll down to the GitHub Pages section.
-5 Under Source click the drop-down menu labelled None and select Master Branch
-6 On selecting Master Branch the page is automatically refreshed, the website     is now deployed.
-7 Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+1. Log into GitHub.
+2. From the list of repositories on the screen, select madatoo/discover-with-me
+3. From the menu items near the top of the page, select Settings.
+4. Scroll down to the GitHub Pages section.
+5. Under Source click the drop-down menu labelled None and select Master Branch
+6. On selecting Master Branch the page is automatically refreshed, the website     is now deployed.
+7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
 
 Run this project locally (clone this project into Gitpod) you will need:
  * a Github account. Create a Github account here
  * use the browser with extention for gitpod
 Then follow these steps:
-1 Install the Gitpod Browser Extentions for your browser
-2 After installation, restart the browser
-3 Log into Gitpod with your gitpod account.
-4 Navigate to the Project GitHub repository
-4 Click the green "Gitpod" button in the top right corner of the respository
-5 This will trigger a new gitpod workspace to be created from the code in   github where you can work locally.
+1. Install the Gitpod Browser Extentions for your browser
+2. After installation, restart the browser
+3. Log into Gitpod with your gitpod account.
+4. Navigate to the Project GitHub repository
+5. Click the green "Gitpod" button in the top right corner of the respository
+6. This will trigger a new gitpod workspace to be created from the code in   github where you can work locally.
 
 
 
 
 ## Credits
-
-Pictures connected to church of peace are from official church webpage, and are made by [Bożena Pytel] 
-(https://kosciolpokoju.pl/de/pliki-do-pobrania/)
-
-Świdnica panoramic view is taken from Wikimedia Commons / CC-BY-SA-3.0 and is  [Piotr Marynowski] (https://commons.wikimedia.org/wiki/File:Świdnica_-_Panorama_miasta.jpg) 
-
-Castle Książ photo is from [Fshoq] (https://fshoq.com ) and [RadioZet](https://gfx.radiozet.pl/var/radiozet/storage/images/podroze/zamek-ksiaz-zwiedzanie-bilety-i-historia-zamku-ksiaz-w-walbrzychu/9583995-1-pol-PL/Zamek-Ksiaz-zwiedzanie-architektonicznej-perly-Walbrzycha_article.jpg)
-
-All other photos are from my own home archive.
 
 ### Code
 
@@ -163,7 +154,14 @@ I was looking for some inspiration about README.dm file in files [Ann Graves Fil
 
 
 ### Media
+Pictures connected to church of peace are from official church webpage, and are made by [Bożena Pytel] 
+(https://kosciolpokoju.pl/de/pliki-do-pobrania/)
 
+Świdnica panoramic view is taken from Wikimedia Commons / CC-BY-SA-3.0 and is  [Piotr Marynowski] (https://commons.wikimedia.org/wiki/File:Świdnica_-_Panorama_miasta.jpg) 
+
+Castle Książ photo is from [Fshoq] (https://fshoq.com ) and [RadioZet](https://gfx.radiozet.pl/var/radiozet/storage/images/podroze/zamek-ksiaz-zwiedzanie-bilety-i-historia-zamku-ksiaz-w-walbrzychu/9583995-1-pol-PL/Zamek-Ksiaz-zwiedzanie-architektonicznej-perly-Walbrzycha_article.jpg)
+
+All other photos are from my own home archive.
 ### Acknowledgements
 
 Thank you:
