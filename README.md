@@ -43,7 +43,8 @@ Depending on whether they are a new or returning visitor of the website their ne
 
 ### Wireframes 
   
-  Are available in this [File](./full_size/discover_with_me.jpg)
+  Are available in this [Wirefames](../assets/wireframes)
+  
 
 ## Features
 
@@ -105,7 +106,40 @@ will be used to increse user experience by adding, expected by users, icons.
 
 ## Testing
 
+In order to ensure the site works as intended, I made manual tests on phones, tablets and desktops, using Chrome,Firefox, Internet Explorer, Edge.
+
+Links (in buttons) are working properly and open expected sites.
+
+Footer icons provide exacly to the showed places and open in new windows.
+
+Navbar on each side working great, and move the users to expected sites
+
+Contact form must be competed to send it (message and properlly e-mail must  inserted). 
+
 ## Deployment
+
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+1 Log into GitHub.
+2 From the list of repositories on the screen, select madatoo/discover-with-me
+3 From the menu items near the top of the page, select Settings.
+4 Scroll down to the GitHub Pages section.
+5 Under Source click the drop-down menu labelled None and select Master Branch
+6 On selecting Master Branch the page is automatically refreshed, the website     is now deployed.
+7 Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+
+Run this project locally (clone this project into Gitpod) you will need:
+ * a Github account. Create a Github account here
+ * use the browser with extention for gitpod
+Then follow these steps:
+1 Install the Gitpod Browser Extentions for your browser
+2 After installation, restart the browser
+3 Log into Gitpod with your gitpod account.
+4 Navigate to the Project GitHub repository
+4 Click the green "Gitpod" button in the top right corner of the respository
+5 This will trigger a new gitpod workspace to be created from the code in   github where you can work locally.
+
+
+
 
 ## Credits
 
@@ -120,6 +154,7 @@ All other photos are from my own home archive.
 
 ### Code
 
+To create this project I used Bootstap and w3schools websites and their tutorials. Each of my pages has additional information about borrowed original code, which were changed according to my website's needs.
 
 
 ### Content
@@ -132,13 +167,13 @@ I was looking for some inspiration about README.dm file in files [Ann Graves Fil
 ### Acknowledgements
 
 Thank you:
-* [Brian Macharia] which is my mentor, and provide me by this project:)
-* [Jim Lynx] for his tips about MS1 Preparation and GitHub  presentations
-* [Anna Greaves] for webinar about How to write good README.md
-* [othneildrew] for README template
-* [Dani Krossing] for favicon tutorial on YT
-* [HelloRoman] for fun and explanation in Polish language 
-* [Zebza] for short and very usefull info about UI, UX and design in Polish         language as well
+* [Brian Macharia]() which is my mentor, and provide me by this project:)
+* [Jim Lynx]() for his tips about MS1 Preparation and GitHub  presentations
+* [Anna Greaves]() for webinar about How to write good README.md
+* [othneildrew]()for README template
+* [Dani Krossing]() for favicon tutorial on YT
+* [HelloRoman]() for fun and explanation in Polish language 
+* [Zebza]() for short and very usefull info about UI, UX and design in Polish         language as well
 
 
 
