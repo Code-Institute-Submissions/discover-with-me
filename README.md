@@ -1,6 +1,6 @@
 # Discover with me
 ## Swidnica and places near by
-[View website in GitHub Pages]()
+[View website in GitHub Pages]( https://madatoo.github.io/discover-with-me/)
 
 ## Introduction 
 
