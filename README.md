@@ -43,7 +43,7 @@ Depending on whether they are a new or returning visitor of the website their ne
 
 ### Wireframes 
   
-  Are available in this [Wirefames](../assets/wireframes)
+  Are available in this [Wirefames](wireframes)
   
 
 ## Features
@@ -59,16 +59,16 @@ The website also has the same style footer stuck at the bottom of each page with
 This page contains jumbotron with a picture and a welcome paragraph. There is a call to action button which when clicked, moves visitors to the Gallery.
 
 #### About 
-There is a picture of me and a short paragraph about the purpose of this page. There are also two call to action buttons, one to visit the Gallery and one to contact me.
+This is a page where you can read a little more about Świdnica. It contains information about monuments and places to see in Świdnica and its close region. There are also some facts about famous people that were born and raised in the city and the area. There is also a section about regular events that take place in the city.
 
 #### Gallery
-This page shows first twelve pictures. Gallery on mobile devices shows one photo under the other, tablets have two columns of photos, whereas large screens have four thumbnail photos in three rows. When a website user clicks a picture, they will open a new page called Blog. There is also a call to action button to write to me. 
+This page shows sample photos. Gallery on mobile devices shows one photo under the other, whereas larger screens, like laptops, show photos in three columns. When a website user clicks a picture, they will open a new page called Blog. There is also a call to action button to Write to Me. 
 
 #### Blog
-This site shows information about a photo, for instance where it was taken, as well as, when and why I advise to visit that place. There are also a few additional photos of that location to show it from a different perspective or share its distinctive features. This page also contains two buttons, one to view Gallery and the other one to write to me.
+This site currently asks the website users to send in the topics they would be interested in reading about. In the future, this site would be a host to the various blog posts about the topics chosen by the site visitors. This page also contains two buttons, one to view the Gallery and the other to Write to Me.
 
 #### Contact 
-This page has a form to fill, as well as, some pictures and call to action buttons which move visitors to the Gallery or Blog page. 
+This page has a form to fill, and call to action buttons which move visitors to the Gallery or Blog page. 
 
 ## Technologies Used
 
@@ -137,9 +137,6 @@ Then follow these steps:
 4. Navigate to the Project GitHub repository
 5. Click the green "Gitpod" button in the top right corner of the respository
 6. This will trigger a new gitpod workspace to be created from the code in   github where you can work locally.
-
-
-
 
 ## Credits
 
